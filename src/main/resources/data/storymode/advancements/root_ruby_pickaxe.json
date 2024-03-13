@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "got_ruby": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "storymode:ruby_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "Получить рубиновую кирку"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "storymode:ruby_pickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Он и такое может?"
+    }
+  },
+  "requirements": [
+    [
+      "got_ruby"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

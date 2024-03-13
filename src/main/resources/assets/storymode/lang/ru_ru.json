@@ -1,0 +1,16 @@
+{
+  "item.storymode.ruby": "Рубин",
+  "block.storymode.ruby_block": "Блок рубина",
+  "block.storymode.ruby_ore": "Рубиновая руда",
+  "item.storymode.ruby_pickaxe": "Рубиновая кирка",
+  "item.storymode.ruby_axe": "Рубиновый топор",
+  "item.storymode.ruby_sword": "Рубиновый меч",
+  "item.storymode.ruby_shovel": "Рубиновая лопата",
+  "item.storymode.ruby_boots": "Рубиновые ботинки",
+  "item.storymode.ruby_helmet": "Рубиновый Шлем",
+  "item.storymode.ruby_leggings": "Рубиновые Штаны",
+  "item.storymode.ruby_chestplate": "Рубиновый Нагрудник",
+  "entity.storymode.person": "Руби Тэллер",
+  "item.storymode.ruby_spawn_egg": "Яйцо призыва Руби Тэллер",
+  "itemgroup.ruby": "Вкладка сюжетного режима"
+}

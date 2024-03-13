@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "got_ruby": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "storymode:ruby"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "Получить рубин"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "storymode:ruby"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Как ты сделал это?.."
+    }
+  },
+  "requirements": [
+    [
+      "got_ruby"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
