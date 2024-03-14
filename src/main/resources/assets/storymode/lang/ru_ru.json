@@ -1,5 +1,6 @@
 {
   "item.storymode.ruby": "Рубин",
+  "item.storymode.health_book": "Книга Божественных умений",
   "block.storymode.ruby_block": "Блок рубина",
   "block.storymode.ruby_ore": "Рубиновая руда",
   "item.storymode.ruby_pickaxe": "Рубиновая кирка",
@@ -12,5 +13,7 @@
   "item.storymode.ruby_chestplate": "Рубиновый Нагрудник",
   "entity.storymode.person": "Руби Тэллер",
   "item.storymode.ruby_spawn_egg": "Яйцо призыва Руби Тэллер",
-  "itemgroup.ruby": "Вкладка сюжетного режима"
+  "itemgroup.ruby": "Вкладка сюжетного режима",
+  "message.storymode.success": "Жизни были увеличены",
+  "message.storymode.failure": "Ваши жизни были увеличины на максимум"
 }

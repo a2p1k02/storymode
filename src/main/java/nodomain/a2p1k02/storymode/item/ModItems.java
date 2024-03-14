@@ -8,12 +8,16 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import nodomain.a2p1k02.storymode.RubyTelling;
 import nodomain.a2p1k02.storymode.entity.ModEntities;
+import nodomain.a2p1k02.storymode.item.custom.GodHealthBook;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, RubyTelling.MOD_ID);
 
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> HEALTH_BOOK = ITEMS.register("health_book",
+            () -> new GodHealthBook(new Item.Properties().durability(1)));
 
     public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
             () -> new PickaxeItem(ModToolTiers.RUBY, 1, 3, new Item.Properties()));

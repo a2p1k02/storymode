@@ -1,5 +1,6 @@
 {
   "item.storymode.ruby": "Ruby",
+  "item.storymode.health_book": "Book of God's Skills",
   "block.storymode.ruby_block": "Block of Ruby",
   "block.storymode.ruby_ore": "Ruby Ore",
   "item.storymode.ruby_pickaxe": "Ruby Pickaxe",
@@ -12,5 +13,7 @@
   "item.storymode.ruby_chestplate": "Ruby Chestplate",
   "entity.storymode.person": "Ruby Teller",
   "item.storymode.ruby_spawn_egg": "Ruby Teller Spawn Egg",
-  "itemgroup.ruby": "Story Mode Tab"
+  "itemgroup.ruby": "Story Mode Tab",
+  "message.storymode.success": "Health was increased",
+  "message.storymode.failure": "You have max health already"
 }

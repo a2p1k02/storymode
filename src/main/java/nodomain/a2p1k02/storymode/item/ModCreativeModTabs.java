@@ -14,11 +14,12 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RubyTelling.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("ruby",
+    public static final RegistryObject<CreativeModeTab> STORYMODE_TAB = CREATIVE_MODE_TABS.register("ruby",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
                     .title(Component.translatable("itemgroup.ruby"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RUBY.get());
+                        pOutput.accept(ModItems.HEALTH_BOOK.get());
                         pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                         pOutput.accept(ModBlocks.RUBY_ORE.get());
                         pOutput.accept(ModItems.RUBY_SWORD.get());
